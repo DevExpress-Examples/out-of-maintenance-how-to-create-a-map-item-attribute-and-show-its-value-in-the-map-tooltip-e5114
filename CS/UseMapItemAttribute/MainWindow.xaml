@@ -1,0 +1,24 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxm="http://schemas.devexpress.com/winfx/2008/xaml/map" x:Class="UseMapItemAttribute.MainWindow"
+        xmlns:core="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <core:Double x:Key="Double">80</core:Double>
+    </Window.Resources>
+    
+    <Grid>
+        <dxm:MapControl ToolTipEnabled="True" >
+            <dxm:VectorLayer Name="itemsLayer">
+                <dxm:VectorLayer.Items>
+                    <dxm:MapPolygon  ToolTipPattern="{}Triangle Area: {areaValueAttrName}" Points="0,0,0,40,40,0,0,0" >
+                        <dxm:MapPolygon.Attributes>
+                            <dxm:MapItemAttribute Name="areaValueAttrName"  Value="{StaticResource Double}"/>
+                        </dxm:MapPolygon.Attributes>
+                    </dxm:MapPolygon>
+                </dxm:VectorLayer.Items>
+            </dxm:VectorLayer>
+        </dxm:MapControl>
+    </Grid>
+</Window>
