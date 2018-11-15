@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/UseMapItemAttribute/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/UseMapItemAttribute/MainWindow.xaml))
+<!-- default file list end -->
 # How to create a map item attribute and show its value in the map tooltip 
 
 
