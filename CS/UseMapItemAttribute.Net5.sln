@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMapItemAttribute", "UseMapItemAttribute\UseMapItemAttribute.csproj", "{3B0B9BF5-ECB3-44FA-B442-C7D3B28A3057}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseMapItemAttribute", "UseMapItemAttribute\UseMapItemAttribute.Net5.csproj", "{3B0B9BF5-ECB3-44FA-B442-C7D3B28A3057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
