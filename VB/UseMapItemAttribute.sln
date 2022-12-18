@@ -1,4 +1,4 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UseMapItemAttribute", "UseMapItemAttribute\UseMapItemAttribute.vbproj", "{3B0B9BF5-ECB3-44FA-B442-C7D3B28A3057}"
 EndProject
